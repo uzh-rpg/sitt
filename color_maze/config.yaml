@@ -1,0 +1,10 @@
+experiment_name: "student_informed"
+grid_size: 21
+margin_size: 3
+n_envs: 1000
+use_student: True
+
+# PPO
+n_steps: 250
+batch_size: 250000
+ent_coef: 0.3
